@@ -1,6 +1,10 @@
 import { folder, leftArrow } from "./fragments.js";
 import { fetchJSON } from "./loaders.js";
-import { setupRows } from "./rows.js"
+import { getTime, showTime } from "./rows.js"
+import { stats, headless, toggle } from "./fragments.js"
+import { stringToHTML } from "./fragments.js"
+import { autocomplete } from "./autocomplete.js"
+
 function differenceInDays(date1) {
   // YOUR CODE HERE
   let todayDate = new Date(Date.now())
@@ -19,6 +23,18 @@ window.onload = function () {
     "gamenumber"
   ).innerText = difference_In_Days.toString();
   document.getElementById("back-icon").innerHTML = folder + leftArrow;
+  document.getElementById("statsIcon").addEventListener("click", (event) => {
+    let text = headless(stats(getTime()))
+    document.body.appendChild(stringToHTML(text))
+    toggle()
+    document.getElementById("closedialog").addEventListener("click", event => {
+      console.log("hola")
+      location.reload()
+      // document.getElementById("stadisticsContainer").style.display = "block"
+      // document.getElementById("headlessui-dialog-overlay-5").style.opacity = 0
+    })
+    let interval = setInterval(showTime, 1000)
+  })
 };
 
 let game = {
@@ -55,21 +71,22 @@ Promise.all([fetchJSON("fullplayers"), fetchJSON("solution")]).then(
     ).src = `https://playfootball.games/media/players/${game.solution.map(e => e.id) % 32
     }/${game.solution.map(e => e.id)}.png`;
 
-    // YOUR CODE HERE
-    //game.guesses = 
-    let addRow = setupRows( game );
-    // get myInput object...
-    let boton = document.getElementById("myInput")
-    // when the user types a number an press the Enter key:
-    let idPlayer
-    boton.addEventListener("keydown", e => {
-      if (e.keyCode == 13 && boton.value != ""){
-        /* the ID of the player, where is it? */
-        idPlayer = boton.value
-        //console.log(boton.value)
-        addRow(idPlayer)
-      }
-    })
-  
+    // // YOUR CODE HERE
+    // //game.guesses = 
+    // let addRow = setupRows( game );
+    // // get myInput object...
+    // let boton = document.getElementById("myInput")
+    // // when the user types a number an press the Enter key:
+    // let idPlayer
+    // boton.addEventListener("keydown", e => {
+    //   if (e.keyCode == 13 && boton.value != ""){
+    //     /* the ID of the player, where is it? */
+    //     idPlayer = boton.value
+    //     //console.log(boton.value)
+    //     addRow(idPlayer)
+    //   }
+    // })
+
+    autocomplete(document.getElementById("myInput"), game)
   }
 );
