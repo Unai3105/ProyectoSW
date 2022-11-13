@@ -1,6 +1,6 @@
 import { folder, leftArrow } from "./fragments.js";
 import { fetchJSON } from "./loaders.js";
-
+import { setupRows } from "./rows.js"
 function differenceInDays(date1) {
   // YOUR CODE HERE
   let todayDate = new Date(Date.now())
@@ -54,6 +54,22 @@ Promise.all([fetchJSON("fullplayers"), fetchJSON("solution")]).then(
       "mistery"
     ).src = `https://playfootball.games/media/players/${game.solution.map(e => e.id) % 32
     }/${game.solution.map(e => e.id)}.png`;
+
+    // YOUR CODE HERE
+    //game.guesses = 
+    let addRow = setupRows( game );
+    // get myInput object...
+    let boton = document.getElementById("myInput")
+    // when the user types a number an press the Enter key:
+    let idPlayer
+    boton.addEventListener("keydown", e => {
+      if (e.keyCode == 13 && boton.value != ""){
+        /* the ID of the player, where is it? */
+        idPlayer = boton.value
+        //console.log(boton.value)
+        addRow(idPlayer)
+      }
+    })
   
   }
 );
