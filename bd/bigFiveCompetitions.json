@@ -1,0 +1,117 @@
+[
+    {
+        "id": 2021,
+        "area": {
+            "id": 2072,
+            "name": "England",
+            "code": "ENG",
+            "flag": "https://crests.football-data.org/770.svg"
+        },
+        "name": "Premier League",
+        "code": "PL",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/PL.png",
+        "plan": "TIER_ONE",
+        "currentSeason": {
+            "id": 1490,
+            "startDate": "2022-08-05",
+            "endDate": "2023-05-28",
+            "currentMatchday": 13,
+            "winner": null
+        },
+        "numberOfAvailableSeasons": 124,
+        "lastUpdated": "2022-03-20T08:58:54Z"
+    },
+    {
+        "id": 2015,
+        "area": {
+            "id": 2081,
+            "name": "France",
+            "code": "FRA",
+            "flag": "https://crests.football-data.org/773.svg"
+        },
+        "name": "Ligue 1",
+        "code": "FL1",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/FL1.png",
+        "plan": "TIER_ONE",
+        "currentSeason": {
+            "id": 1497,
+            "startDate": "2022-08-07",
+            "endDate": "2023-06-03",
+            "currentMatchday": 12,
+            "winner": null
+        },
+        "numberOfAvailableSeasons": 79,
+        "lastUpdated": "2022-03-20T09:30:02Z"
+    },
+    {
+        "id": 2002,
+        "area": {
+            "id": 2088,
+            "name": "Germany",
+            "code": "DEU",
+            "flag": "https://crests.football-data.org/759.svg"
+        },
+        "name": "Bundesliga",
+        "code": "BL1",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/BL1.png",
+        "plan": "TIER_ONE",
+        "currentSeason": {
+            "id": 1495,
+            "startDate": "2022-08-05",
+            "endDate": "2023-05-27",
+            "currentMatchday": 11,
+            "winner": null
+        },
+        "numberOfAvailableSeasons": 60,
+        "lastUpdated": "2022-03-20T08:52:53Z"
+    },
+    {
+        "id": 2019,
+        "area": {
+            "id": 2114,
+            "name": "Italy",
+            "code": "ITA",
+            "flag": "https://crests.football-data.org/784.svg"
+        },
+        "name": "Serie A",
+        "code": "SA",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/SA.png",
+        "plan": "TIER_ONE",
+        "currentSeason": {
+            "id": 1505,
+            "startDate": "2022-08-14",
+            "endDate": "2023-06-04",
+            "currentMatchday": 11,
+            "winner": null
+        },
+        "numberOfAvailableSeasons": 91,
+        "lastUpdated": "2022-03-20T09:16:43Z"
+    },
+    {
+        "id": 2014,
+        "area": {
+            "id": 2224,
+            "name": "Spain",
+            "code": "ESP",
+            "flag": "https://crests.football-data.org/760.svg"
+        },
+        "name": "Primera Division",
+        "code": "PD",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/PD.png",
+        "plan": "TIER_ONE",
+        "currentSeason": {
+            "id": 1504,
+            "startDate": "2022-08-14",
+            "endDate": "2023-06-04",
+            "currentMatchday": 11,
+            "winner": null
+        },
+        "numberOfAvailableSeasons": 92,
+        "lastUpdated": "2022-03-20T09:20:08Z"
+    }
+]

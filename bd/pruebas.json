@@ -1,0 +1,17 @@
+{
+    "personas":[{
+        "apellidos": "a",
+        "nombre": "a",
+        "edad": "a"
+    }, {
+        "apellidos": "b",
+        "nombre": "b",
+        "edad": "b"
+    }, {
+        "apellidos": "c",
+        "nombre": "c",
+        "edad": "c"
+    }
+
+    ]
+}

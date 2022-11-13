@@ -1,0 +1,106 @@
+[
+    {
+        "id": 2079,
+        "area": {
+            "id": 2224,
+            "name": "Spain",
+            "code": "ESP",
+            "flag": "https://crests.football-data.org/760.svg"
+        },
+        "name": "Copa del Rey",
+        "code": "CDR",
+        "type": "CUP",
+        "emblem": null,
+        "plan": "TIER_THREE",
+        "currentSeason": {
+            "id": 871,
+            "startDate": "2021-12-01",
+            "endDate": "2022-04-23",
+            "currentMatchday": 2,
+            "winner": {
+                "id": 90,
+                "name": "Real Betis Balompié",
+                "shortName": "Real Betis",
+                "tla": "BET",
+                "crest": "https://crests.football-data.org/90.png",
+                "address": "Avenida de Heliópolis, s/n Sevilla 41012",
+                "website": "http://www.realbetisbalompie.es",
+                "founded": 1907,
+                "clubColors": "Green / White",
+                "venue": "Estadio Benito Villamarín",
+                "lastUpdated": "2022-05-03T08:22:26Z"
+            }
+        },
+        "numberOfAvailableSeasons": 5,
+        "lastUpdated": "2021-04-16T00:00:33Z"
+    },
+    {
+        "id": 2077,
+        "area": {
+            "id": 2224,
+            "name": "Spain",
+            "code": "ESP",
+            "flag": "https://crests.football-data.org/760.svg"
+        },
+        "name": "Segunda División",
+        "code": "SD",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/SD.png",
+        "plan": "TIER_TWO",
+        "currentSeason": {
+            "id": 1508,
+            "startDate": "2022-08-14",
+            "endDate": "2023-05-28",
+            "currentMatchday": 12,
+            "winner": null
+        },
+        "numberOfAvailableSeasons": 11,
+        "lastUpdated": "2022-03-20T09:35:51Z"
+    },
+    {
+        "id": 2014,
+        "area": {
+            "id": 2224,
+            "name": "Spain",
+            "code": "ESP",
+            "flag": "https://crests.football-data.org/760.svg"
+        },
+        "name": "Primera Division",
+        "code": "PD",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/PD.png",
+        "plan": "TIER_ONE",
+        "currentSeason": {
+            "id": 1504,
+            "startDate": "2022-08-14",
+            "endDate": "2023-06-04",
+            "currentMatchday": 11,
+            "winner": null
+        },
+        "numberOfAvailableSeasons": 92,
+        "lastUpdated": "2022-03-20T09:20:08Z"
+    },
+    {
+        "id": 2078,
+        "area": {
+            "id": 2224,
+            "name": "Spain",
+            "code": "ESP",
+            "flag": "https://crests.football-data.org/760.svg"
+        },
+        "name": "Supercopa de España",
+        "code": null,
+        "type": "SUPER_CUP",
+        "emblem": null,
+        "plan": "TIER_FOUR",
+        "currentSeason": {
+            "id": 714,
+            "startDate": "2021-01-13",
+            "endDate": "2021-01-17",
+            "currentMatchday": null,
+            "winner": null
+        },
+        "numberOfAvailableSeasons": 4,
+        "lastUpdated": "2020-01-13T10:40:04Z"
+    }
+]
